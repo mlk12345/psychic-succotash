@@ -1,0 +1,35 @@
+# ============================================
+# WorkBuddy Sync — 只同步关键配置和记忆
+# ============================================
+
+# 1. 忽略所有
+/*
+
+# 2. 白名单 — 以下文件和目录会被同步
+!.gitignore
+!README.md
+
+# 身份文件
+!SOUL.md
+!IDENTITY.md
+!USER.md
+
+# 设置
+!settings.json
+
+# MCP 连接器配置
+!.mcp.json
+!mcp-approvals.json
+
+# 技能
+!/skills/
+
+# 记忆
+!/memory/
+
+# 自动化任务数据库
+!workbuddy.db
+
+# 工作区状态
+!workspace-state.json
+!user-state.json
